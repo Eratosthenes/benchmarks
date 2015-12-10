@@ -1,3 +1,19 @@
+Java:
+  $ time java Sum
+  125000000250000000
+
+  real	0m0.350s
+  user	0m0.311s
+  sys	0m0.031s
+
+Javascript: 
+  $ time node sum.js
+  125000000067108900
+
+  real	0m0.718s
+  user	0m0.689s
+  sys	0m0.022s
+
 C:
   $ time ./a.out
   125000000250000000
@@ -5,14 +21,6 @@ C:
   real	0m1.703s
   user	0m1.689s
   sys	0m0.007s
-
-Javascript: (1.0x C) 
-  $ time node sum.js
-  125000000067108900
-
-  real	0m0.718s
-  user	0m0.689s
-  sys	0m0.022s
 
 J: (5.5x C)
  $ time jc sum.ijs
