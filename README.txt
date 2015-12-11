@@ -1,3 +1,8 @@
+Summary: Java, Javascript, and C were comparable. Compiled languages "cheat" on their
+benchmarks a bit by frontloading some of the work during the time they take to compile. 
+However, Javascript's speed is very impressive for a dynamically typed, interpreted language. 
+J held its own pretty well, and Ruby's speed was somewhat embarrassing. 
+
 Java:
   $ time java Sum
   125000000250000000
